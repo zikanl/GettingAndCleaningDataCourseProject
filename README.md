@@ -18,7 +18,7 @@ The script `run_analysis.R` is run from the local directory (which should be set
      5. Activies and subjects are given labels using factor levels of activity and subject id data.
      6. Finally, processed dataset is returned.
 6. (The previous processing is repeated to both training and test datasets.)
-7. Training and test datasets are merged using `rbind()` and converted to `data.table` to make it easier to do groupwise operations in the following step
+7. Training and test datasets are merged using `rbind()` and converted to `data.table` to make it easier to do groupwise operations in the following step 
 8. Mean is calculated for all variables for each activity and subject
 9. Variable names are loaded to separate vector and  tidied to follow the convention. New names are applied to the dataset
 10. Tidy dataset is written to disk.
