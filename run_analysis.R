@@ -82,4 +82,3 @@ setnames(tidy.dt, tidy.dt.names)
 #Write the cleaned data to a file named tidy.txt
 setwd('..')
 write.table(tidy.dt, "tidy.txt", row.names = FALSE, quote = FALSE)
-
